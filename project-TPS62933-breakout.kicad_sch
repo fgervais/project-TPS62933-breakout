@@ -2562,7 +2562,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0cc1781f-b416-476d-815e-3b737c4dd8b2")
 		(property "Reference" "C7"
 			(at 153.67 35.5599 0)
@@ -2600,13 +2599,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 149.86 36.83 0)
+		(property "Description" "16V X7R 20% 1210 C3225X7R1C226M250AC"
+			(at 149.86 59.436 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -2632,7 +2630,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "119f68c8-987f-42ea-af84-3a357064271f")
 		(property "Reference" "C3"
 			(at 35.56 43.1799 0)
@@ -2670,13 +2667,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 31.75 44.45 0)
+		(property "Description" "50V X7R 10% 1210 C3225X7R1H106K250AC"
+			(at 36.068 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3032,7 +3028,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2fe84955-0961-4d32-9156-79038b006552")
 		(property "Reference" "C1"
 			(at 213.36 36.8299 0)
@@ -3070,13 +3065,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 209.55 38.1 0)
+		(property "Description" "10V X7R 10% 0805 C2012X7R1A106K125AC"
+			(at 209.55 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -3640,7 +3634,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5a9a9dbc-48c2-45b8-9e10-7dfff099e52f")
 		(property "Reference" "C2"
 			(at 269.24 36.8299 0)
@@ -3678,8 +3671,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 265.43 38.1 0)
+		(property "Description" "10V X7R 10% 0805 C2012X7R1A106K125AC"
+			(at 275.336 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,7 +3908,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8dc2750d-72bb-481f-8ff8-6333ac2f758b")
 		(property "Reference" "L1"
 			(at 127 25.4 90)
@@ -3951,13 +3943,12 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor"
-			(at 127 30.48 0)
+		(property "Description" "CBC3225T100KR"
+			(at 125.984 32.004 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"

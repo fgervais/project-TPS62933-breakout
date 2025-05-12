@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS7A2033PDBVR")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/TPS7A2033PDBVR/TPS7A2033PDBVR.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS62933DRLR")(type "KiCad")(uri "${KIPRJMOD}/kicad-library/TPS62933DRLR/TPS62933DRLR.kicad_sym")(options "")(descr ""))
+)

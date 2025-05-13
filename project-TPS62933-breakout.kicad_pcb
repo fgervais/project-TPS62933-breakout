@@ -174,6 +174,7 @@
 		(property "Value" "Conn_01x04_Pin"
 			(at 0 9.95 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "fbe76fb9-e68c-48ad-901a-15c9c8269e00")
 			(effects
 				(font
@@ -377,8 +378,9 @@
 			(uuid "d5bc9ac1-13ec-4fec-8ad3-70201fda4201")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 3.81 360)
+			(at 0 3.81 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "8de83fb0-28ef-41e0-84ab-59a95f2375b9")
 			(effects
 				(font
@@ -462,7 +464,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 2.3 360)
+			(at -0.5 2.25 360)
 			(layer "F.Fab")
 			(uuid "ade67f60-3847-4e34-9e66-3d3d98aa9bdc")
 			(effects
@@ -937,7 +939,7 @@
 			)
 		)
 		(property "Value" "52.3k"
-			(at 0 1.43 90)
+			(at -3.5 0 90)
 			(layer "F.Fab")
 			(uuid "11a32730-15af-48c5-b8f4-953df9956f8b")
 			(effects
@@ -1365,7 +1367,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 90)
+			(at -3.5 0 90)
 			(layer "F.Fab")
 			(uuid "5e02e99f-8908-4738-b4ec-058dda24a41f")
 			(effects
@@ -1579,7 +1581,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 1.68 90)
+			(at 0 -1.75 90)
 			(layer "F.Fab")
 			(uuid "6b9cde88-3ab5-4559-b22c-d4edafc2e2a4")
 			(effects
@@ -1791,7 +1793,7 @@
 			)
 		)
 		(property "Value" "TPS62933DRLR"
-			(at 0 2 0)
+			(at 5 -2.25 0)
 			(layer "F.Fab")
 			(uuid "1eb57fb3-b88e-4857-8c99-fcf81d0e272b")
 			(effects
@@ -2318,7 +2320,7 @@
 			)
 		)
 		(property "Value" "10uH"
-			(at 0 2.28 90)
+			(at 3 -0.5 180)
 			(layer "F.Fab")
 			(uuid "49c2c87f-4748-44e4-9488-32583034f607")
 			(effects
@@ -2534,7 +2536,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 1.43 360)
+			(at 0 -1.5 360)
 			(layer "F.Fab")
 			(uuid "5a9b6a25-f204-423c-b864-d995c730a696")
 			(effects
@@ -2748,7 +2750,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.43 0)
+			(at 3.75 0 0)
 			(layer "F.Fab")
 			(uuid "c643de35-82e6-4371-bc19-9b2898bd251b")
 			(effects
@@ -2962,7 +2964,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.43 90)
+			(at 2.75 0 90)
 			(layer "F.Fab")
 			(uuid "0cf6eb61-16eb-4666-8ba6-ffdaffe6801a")
 			(effects
@@ -3390,7 +3392,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.43 0)
+			(at 3.75 0 0)
 			(layer "F.Fab")
 			(uuid "d51708c0-4241-4895-a24b-c453574a814a")
 			(effects

@@ -480,7 +480,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerber/project-TPS62933-breakout/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

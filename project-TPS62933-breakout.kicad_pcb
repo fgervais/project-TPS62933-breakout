@@ -105,13 +105,13 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
-			(layerselection 0x00010fc_ffffffff)
+			(layerselection 0x00010f0_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
-			(usegerberattributes yes)
-			(usegerberadvancedattributes yes)
-			(creategerberjobfile yes)
+			(usegerberextensions yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
 			(dashed_line_dash_ratio 12.000000)
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
@@ -137,9 +137,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "gerber/project-TPS62933-breakout/")
 		)
 	)
 	(net 0 "")
@@ -452,7 +452,7 @@
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 -2.3 360)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "c9f9b49f-f7b0-45e4-9e9e-073c3188fb38")
@@ -464,7 +464,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at -0.5 2.25 360)
+			(at -0.5 2.25 0)
 			(layer "F.Fab")
 			(uuid "ade67f60-3847-4e34-9e66-3d3d98aa9bdc")
 			(effects
@@ -619,7 +619,7 @@
 			(uuid "887e41ff-bdb3-4310-a0c9-1942ed3b9ed8")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c7214737-aee1-4eb0-bfea-b1a13b71b896")
 			(effects
@@ -2524,7 +2524,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C8"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f538d1e1-df3a-41d8-829d-5c9440337d1e")
@@ -2536,7 +2536,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 0 -1.5 360)
+			(at 0 -1.5 0)
 			(layer "F.Fab")
 			(uuid "5a9b6a25-f204-423c-b864-d995c730a696")
 			(effects
@@ -2691,7 +2691,7 @@
 			(uuid "f0477bf3-8d29-4405-ab9c-1a5b612287ff")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3c7eb3bb-e77d-4a80-9e02-9c56974244ad")
 			(effects
